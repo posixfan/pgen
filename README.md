@@ -22,9 +22,9 @@ This is a simple Python script that generates secure passwords conforming to the
 1. Generate a single password with the default length (12 characters):
 <pre>./pgen.py</pre>
 2. Generate a password of length 15:
-<pre>./password_generator.py 15</pre>
+<pre>./pgen.py 15</pre>
 3. Generate 5 passwords of length 10:
-<pre>./password_generator.py 10 5</pre>
+<pre>./pgen.py 10 5</pre>
 
 ## Notes
 - If the specified password length is less than 8, the program will exit with an error message.
